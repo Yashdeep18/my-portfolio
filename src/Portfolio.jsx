@@ -143,8 +143,8 @@ export default function Portfolio() {
         </motion.h2>
         <div className="space-y-8">
           <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
-            <h3 className="text-2xl font-semibold">Data Analyst Intern - Khola Eng.</h3>
-            <p className="text-gray-400">Bawal, Haryana, India | 1 Nov 2024 - 31 Jul 2025</p>
+            <h3 className="text-2xl font-semibold">Data Analyst - Khola Eng.</h3>
+            <p className="text-gray-400">Bawal, Haryana, India | july 2025 - Dec 2025</p>
             <p className="mt-2 text-gray-300">
               Worked on data cleaning, visualization, and creating insights using Excel
               and Power BI to improve operational efficiency.
