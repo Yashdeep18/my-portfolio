@@ -150,6 +150,17 @@ export default function Portfolio() {
               and Power BI to improve operational efficiency.
             </p>
           </div>
+          <div className="space-y-8">
+          <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
+            <h3 className="text-2xl font-semibold">MIS Executive - LEVREDO </h3>
+            <p className="text-gray-400">Bawal, Haryana, India | Apr 2024 - May 2025</p>
+            <p className="mt-2 text-gray-300">
+             • Managed end-to-end operations including sales, inventory, pricing, and vendor coordination.
+             • Built and maintained Excel MIS dashboards to track KPIs, revenue trends, and business performance.
+             • Conducted pricing, discount, and revenue analysis to optimize profitability and support decision-making.
+             • Generated business reports and provided actionable insights to improve operational efficiency
+            </p>
+          </div>
           <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
             <h3 className="text-2xl font-semibold">Python Developer Intern - MirrorSoft Technology</h3>
             <p className="text-gray-400">Noida | Jan 2022 - Feb 2022</p>
