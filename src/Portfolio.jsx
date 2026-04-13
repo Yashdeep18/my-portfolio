@@ -141,35 +141,38 @@ export default function Portfolio() {
         >
           Experience
         </motion.h2>
-        <div className="space-y-8">
-          <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
-            <h3 className="text-2xl font-semibold">Data Analyst - Khola Eng.</h3>
-            <p className="text-gray-400">Bawal, Haryana, India | july 2025 - Dec 2025</p>
-            <p className="mt-2 text-gray-300">
-              Worked on data cleaning, visualization, and creating insights using Excel
-              and Power BI to improve operational efficiency.
-            </p>
-          </div>
-        <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
-  <h3 className="text-2xl font-semibold">
-    MIS Executive - LEVREDO
-  </h3>
-  <p className="text-gray-400">
-    Bawal, Haryana, India | Apr 2024 - May 2025
-  </p>
-  <p className="mt-2 text-gray-300">
-    • Managed end-to-end operations including sales, inventory, pricing, and vendor coordination.
-  </p>
+       <div className="space-y-8">
+
+  {/* Data Analyst */}
+  <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
+    <h3 className="text-2xl font-semibold">Data Analyst - Khola Eng.</h3>
+    <p className="text-gray-400">Bawal, Haryana, India | July 2025 - Dec 2025</p>
+    <p className="mt-2 text-gray-300">
+      Worked on data cleaning, visualization, and creating insights using Excel
+      and Power BI to improve operational efficiency.
+    </p>
+  </div>
+
+  {/* LEVREDO */}
+  <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
+    <h3 className="text-2xl font-semibold">MIS Executive - LEVREDO</h3>
+    <p className="text-gray-400">Bawal, Haryana, India | Apr 2024 - May 2025</p>
+    <p className="mt-2 text-gray-300">
+      Managed end-to-end operations including sales, inventory, pricing, and vendor coordination.
+    </p>
+  </div>
+
+  {/* Python Intern */}
+  <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
+    <h3 className="text-2xl font-semibold">Python Developer Intern - MirrorSoft Technology</h3>
+    <p className="text-gray-400">Noida | Jan 2022 - Feb 2022</p>
+    <p className="mt-2 text-gray-300">
+      Developed automation scripts and optimized Python-based tools for client-side analytics projects.
+    </p>
+  </div>
+
 </div>
-          <div className="bg-gray-800 p-6 rounded-2xl shadow-lg">
-            <h3 className="text-2xl font-semibold">Python Developer Intern - MirrorSoft Technology</h3>
-            <p className="text-gray-400">Noida | Jan 2022 - Feb 2022</p>
-            <p className="mt-2 text-gray-300">
-              Developed automation scripts and optimized Python-based tools for
-              client-side analytics projects.
-            </p>
-          </div>
-        </div>
+          
       </section>
 
       {/* Projects Section */}
