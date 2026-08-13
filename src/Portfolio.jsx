@@ -11,7 +11,7 @@ export default function Portfolio() {
             <a
               href="https://drive.google.com/file/d/16yiFRACisMZ8BzxZ7v6eCBt9NwSuiAUc/view?usp=sharing"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="ml-4 px-4 py-2 bg-cyan-500 text-black rounded-lg hover:bg-cyan-400 transition-colors"
             >
               Preview Resume
@@ -220,7 +220,7 @@ export default function Portfolio() {
             >
               <h3 className="text-2xl font-semibold">{project.title}</h3>
               <p className="mt-2 text-gray-300">{project.desc}</p>
-              <a href={project.link} target="_blank" rel="noreferrer" className="mt-4 inline-block text-cyan-300 hover:underline">View on GitHub</a>
+              <a href={project.link} target="_blank" rel="noopener noreferrer" className="mt-4 inline-block text-cyan-300 hover:underline">View on GitHub</a>
             </motion.div>
           ))}
         </div>
@@ -246,7 +246,7 @@ export default function Portfolio() {
           <a
             href="https://drive.google.com/file/d/1Xb0bv5O6P0Oh1i4N5NudKpik7dcSFtal/view"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="mt-4 inline-block text-cyan-300 hover:underline"
           >
             View Certificate
@@ -276,10 +276,10 @@ export default function Portfolio() {
           </a>
 
           <div className="mt-4 space-y-2">
-            <a href="https://github.com/Yashdeep18" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-cyan-300">GitHub • github.com/Yashdeep18</a>
-            <a href="https://www.linkedin.com/in/yashdeep-yadav-468411243/" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-cyan-300">LinkedIn • yashdeep-yadav</a>
+            <a href="https://github.com/Yashdeep18" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-cyan-300">GitHub • github.com/Yashdeep18</a>
+            <a href="https://www.linkedin.com/in/yashdeep-yadav-468411243/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-cyan-300">LinkedIn • yashdeep-yadav</a>
             <div className="mt-3">
-              <a href="https://drive.google.com/file/d/16yiFRACisMZ8BzxZ7v6eCBt9NwSuiAUc/view?usp=sharing" target="_blank" rel="noreferrer" className="text-cyan-300 hover:underline">Open Resume (PDF)</a>
+              <a href="https://drive.google.com/file/d/16yiFRACisMZ8BzxZ7v6eCBt9NwSuiAUc/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-cyan-300 hover:underline">Open Resume (PDF)</a>
             </div>
           </div>
         </div>
